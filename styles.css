@@ -1,0 +1,90 @@
+body {
+    background: url('image2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.login-container {
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 900px;
+}
+
+.welcome-text {
+    padding: 40px;
+    flex: 1;
+}
+
+.welcome-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.social-icons img {
+    margin: 10px;
+    width: 30px;
+    filter: invert(1);
+}
+
+.login-form {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    flex: 1;
+}
+
+.login-form h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background: #f57c00;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.login-form .forgot-password {
+    color: #ddd;
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.login-form p {
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+.login-form a {
+    color: #f57c00;
+    text-decoration: none;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
