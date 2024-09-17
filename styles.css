@@ -25,11 +25,6 @@ body {
     margin-bottom: 20px;
 }
 
-.social-icons img {
-    margin: 10px;
-    width: 30px;
-    filter: invert(1);
-}
 
 .login-form {
     padding: 40px;
@@ -87,4 +82,39 @@ body {
 
 .remember-me input {
     margin-right: 5px;
+}
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed; /* Make the navbar fixed */
+    top: 0;          /* Stick to the top */
+    width: 100%;     /* Full width */
+    z-index: 1000;   /* Ensure it stays above other content */
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-top: 80px; /* Add space to compensate for the fixed navbar */
+    padding: 20px;
 }
