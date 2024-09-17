@@ -86,10 +86,10 @@ body {
 nav {
     background-color: #333;
     padding: 10px 20px;
-    position: fixed; /* Make the navbar fixed */
-    top: 0;          /* Stick to the top */
-    width: 100%;     /* Full width */
-    z-index: 1000;   /* Ensure it stays above other content */
+    position: fixed; 
+    top: 0;          
+    width: 100%;     
+    z-index: 1000;   
 }
 
 .navbar {
@@ -115,6 +115,6 @@ nav {
 }
 
 .content {
-    margin-top: 80px; /* Add space to compensate for the fixed navbar */
+    margin-top: 80px; 
     padding: 20px;
 }
